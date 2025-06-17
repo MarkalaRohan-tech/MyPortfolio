@@ -3,7 +3,7 @@ import version from "../assets/version.PNG";
 import mern from "../assets/mern.PNG";
 import postman from "../assets/postman.PNG";
 import react from "../assets/react.PNG";
-import leet from "../assets/LeetCodeAchievement.PNG";
+import leet from "../assets/LeetCodeAchievement.png";
 
 const Certifications = () => {
   return (

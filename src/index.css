@@ -1,0 +1,32 @@
+@import "tailwindcss";
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+.fredoka{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.profile:hover,span:hover{
+  color: rgb(255, 145, 0);
+  cursor: pointer;
+}
+.active-link{
+  color: rgb(255, 145, 0);
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 1px;
+  background-color: black;
+  animation: blink 0.7s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

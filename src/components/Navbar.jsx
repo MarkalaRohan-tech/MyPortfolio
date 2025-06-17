@@ -12,7 +12,7 @@ export default function Navbar({ className = "" }) {
   return (
     <div className="flex flex-col">
       <div
-        className={`${className} navbar flex flex-row gap-3 justify-between items-center w-full h-30 shadow-2xl bg-white p-4`}
+        className={`${className} navbar flex flex-row gap-3 justify-between items-center w-full h-22 md:h-25 shadow-2xl bg-white p-4`}
       >
         <Logo></Logo>
         <Links checked={handleChildData}></Links>

@@ -9,7 +9,7 @@ const Home = () => {
         <img
           src={HomePic}
           alt="Cartoon character of Markala Rohan"
-          className="w-[250px] mt-30 md:w-[400px] h-auto"
+          className="w-[250px] mt-30 md:w-[350px] h-auto"
         />
         <div className="card rounded-xl flex flex-col justify-evenly item shadow-2xl p-10">
           <p className="text-3xl font-semibold text-center">Hey there! 👋</p>

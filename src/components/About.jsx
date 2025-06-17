@@ -3,8 +3,8 @@ import AboutPic from "../assets/AboutPic.png"
 
 const About = () => {
     return (
-      <div className="flex flex-col md:flex-row">
-        <div className="mt-40 rounded-3xl shadow-xl bg-orange-50 h-[100%] w-[90vw] md:w-2/3 m-5 md:m-10 p-10">
+      <div className="flex flex-col p-10 justify-center items-center md:flex-row">
+        <div className="mt-50 rounded-3xl shadow-xl bg-orange-50 h-[90%] w-[90vw] md:w-2/3 m-5 md:m-10 p-5">
           <span className="text-orange-500 text-4xl">
             <b>About Myself</b>
           </span>
@@ -58,7 +58,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-[100vw] md:w-1/3 flex justify-center items-center mt-20">
-          <img src={AboutPic} alt="AboutPic" />
+          <img src={AboutPic} alt="AboutPic" md:width={200} />
         </div>
       </div>
     );

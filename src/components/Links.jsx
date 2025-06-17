@@ -13,14 +13,14 @@ export default function Links({ checked }) {
           className="hidden"
         />
         <label htmlFor="toggle">
-          <div className="menu flex flex-col justify-center gap-1 p-3 border-2 mr-2 border-black rounded-lg shadow-lg cursor-pointer [@media(min-width:1600px)]:hidden">
+          <div className="menu flex flex-col justify-center gap-1 p-3 border-2 mr-2 border-black rounded-lg shadow-lg cursor-pointer [@media(min-width:1300px)]:hidden">
             <div className="bg-black w-8 h-[3px] rounded-lg"></div>
             <div className="bg-black w-8 h-[3px] rounded-lg"></div>
             <div className="bg-black w-8 h-[3px] rounded-lg"></div>
           </div>
         </label>
 
-        <div className="hidden [@media(min-width:1600px)]:flex flex-row justify-center items-center gap-10 font-bold text-2xl fredoka">
+        <div className="hidden [@media(min-width:1300px)]:flex flex-row justify-center items-center gap-10 font-bold text-2xl fredoka">
           <span className="rounded-lg p-2">
             <NavLink
               to="/About"

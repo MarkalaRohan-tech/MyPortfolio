@@ -1,9 +1,9 @@
 import React from "react";
-import version from "../assets/version.png";
-import mern from "../assets/mern.png";
-import postman from "../assets/postman.png";
-import react from "../assets/react.png";
-import leet from "../assets/LeetCodeAchievement.png";
+import version from "../assets/version.PNG";
+import mern from "../assets/mern.PNG";
+import postman from "../assets/postman.PNG";
+import react from "../assets/react.PNG";
+import leet from "../assets/LeetCodeAchievement.PNG";
 
 const Certifications = () => {
   return (

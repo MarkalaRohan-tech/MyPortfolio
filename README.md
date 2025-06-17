@@ -1,12 +1,31 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **developer portfolio** built with **React.js**, **Tailwind CSS**, and **React Router**. This project showcases my personal profile, skills, certifications, education, and contact information — all in a single-page web application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React.js** – For building the user interface
+- 💨 **Tailwind CSS** – For utility-first, responsive styling
+- 🔁 **React Router** – For page navigation without reloads
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Sections Included
+
+### 👤 About Me
+A brief introduction including name, background, and what I'm passionate about in tech.
+
+### 🛠️ Skills
+A showcase of all the technologies and tools I’m proficient in — from frontend to backend.
+
+### 📜 Certifications & Achievements
+A list of certifications and milestones that reflect my learning journey and accomplishments.
+
+### 🎓 Education
+Details about my academic background.
+
+### 🔗 Profile / Contact
+Links to my email, GitHub, LinkedIn, and other social profiles, with a contact section included.
+
